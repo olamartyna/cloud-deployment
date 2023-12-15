@@ -1,0 +1,10 @@
+{
+  "name": "olamartyna-message-database",
+  "domain": false,
+  "hostname": "olamartyna-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@olamartyna-postgress-password"
+  },
+  "volumes": ["olamartyna_message_database_volume:/var/lib/postgresql/data"]
+}
